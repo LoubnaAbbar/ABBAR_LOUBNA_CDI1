@@ -1,0 +1,263 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inria+Serif:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+* {
+    font-family: 'Montserrat';
+    text-decoration: none;
+}
+body {
+    margin: 0 auto;
+}
+
+
+/* tete de page */
+
+header.header {
+    display: flex;
+    align-items: center;
+}
+header.header img{
+    width: 115px;
+    margin: 30px;
+    margin-left: 70px;
+}
+
+/* menu de navigation */
+nav.nav {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    width: 900px;
+    margin-left: 110px;
+    top: 20px; 
+    left: 0;
+    right: 0;
+    padding: 0 50px; 
+}
+
+nav.nav li {
+    color: black;
+    font-weight: 800
+    
+;
+}
+
+
+nav.nav li.billeterie {
+    color: #EDB56C;
+}
+
+.b1 {
+    display: flex;
+    justify-content: center;
+}
+
+.b1 img{
+    width: 100%;
+}
+
+.b2 {
+    margin: 50px;
+    margin-left: 115px;
+    margin-right: 190px;
+    font-size: 24px;
+    position: relative;
+
+.ligne-esthetique-verticale {
+    width: 2px; 
+    background-color: #EDB56C; 
+    position: absolute; 
+    top: 0; 
+    bottom: 0; 
+}
+    
+
+}
+.p2 {
+    font-family: 'Inria Serif';
+    font-weight: lighter;
+    margin-left: 20px;
+
+}
+
+
+/* Assurer que chaque image a la même taille et est centrée */
+.mySwiper {
+    display: flex; /* S'assurer que les slides sont bien alignés */
+    justify-content: center;
+}
+
+.mySwiper .swiper-slide {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Images avec une taille uniforme sans les couper */
+.mySwiper img {
+    width: 100%; 
+    height: 300px; 
+    object-fit: contain; 
+    border-radius: 10px; 
+    border-radius: 15;
+}
+
+.bigcarrevert {
+    display: flex;
+    background-color: #CECFC1;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+    padding-bottom: 60px;
+}
+
+.titlevert {
+    margin-top: 50px;
+    font-weight: 700;
+    font-size: 30px;
+    color: white;
+}
+
+.carrevert1 {
+    display: flex;
+    background-color: #B0B19D;
+    padding-left: 50px;
+    padding-right: 50px;
+    justify-content: space-between;
+    width: 300px;
+}
+
+.carrevert2 {
+    display: flex;
+    background-color: #B0B19D;
+    padding-left: 50px;
+    padding-right: 50px;
+    justify-content: space-between;
+    width: 300px;
+    align-items: center;
+}
+
+.carre {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 60%; 
+}
+
+.Pgauche, .Pdroite {
+   color: white;
+}
+
+.Pgauche p, .Pdroite p {
+    font-family: 'Inria Serif';
+}
+
+.bigbloc {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.bigtitle {
+    margin-top: 50px;
+    font-weight: 700;
+    font-size: 30px;
+}
+
+.blocavis {
+    width: 60%;
+}
+
+.avis {
+    display: flex;
+    flex-direction: column;
+}
+
+.citation {
+    font-style: italic; 
+    margin-bottom: 5px; 
+}
+
+.auteur {
+    font-weight: 700; 
+    margin-top: auto; 
+}
+
+.button {
+    background-color: #EDB56C;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 5px;
+    position: relative; 
+    z-index: 1;
+    cursor: pointer;
+  }
+
+.blocb{
+    display: flex;
+    justify-content: center;
+    padding-top: 70px;
+    position: relative; 
+}
+
+.line {
+    position: absolute; 
+    top: 80%; 
+    width: 100%; 
+    height: 1px; 
+    background-color: #EDB56C;
+    z-index: 0;
+}
+
+.bassite {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.imgtop img, .imgbottom img{
+    max-width: 180px; 
+    max-height: 130px; 
+    width: auto; 
+    height: auto; 
+    object-fit: contain; 
+
+}
+
+
+
+.imgtop{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    object-fit: contain;
+}
+
+.imgbottom{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    object-fit: contain;
+}
+
+.footer {
+    background-color: #EDB56C;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer p {
+    color: white;
+}
+
